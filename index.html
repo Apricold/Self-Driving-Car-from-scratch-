@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Conduccion Automatica Usando AI</title>
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Canvas: elemento de html dinamico que permite crear graficos dinamicos  mediante manipulacion de pixeles por medio de javascript-->
+    <canvas id="carCanvas"></canvas>
+    <div id="verticalButtons">
+        <button onclick="save()">Guardar</button>
+        <button onclick="discard()">No Guardar</button>
+    </div>
+    <canvas id="networkCanvas"></canvas>
+    <!--Script: Conjunto de codigo para dar funcionalidad que medio de javascript-->
+    <script src="network.js"></script>
+    <script src="sensor.js"></script>
+    <script src="utils.js"></script>
+    <script src="road.js"></script>
+    <script src="controls.js"></script>
+    <script src="car.js"></script>
+    <script src="visualizer.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
