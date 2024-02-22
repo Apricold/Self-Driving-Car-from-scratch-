@@ -42,6 +42,7 @@ if(localStorage.getItem("bestBrain")){
         }
     }
 } 
+console.log(localStorage.getItem("bestBrain"));
 
 const traffic=[
     new Car(road.getLaneCenter(1),-100,30,50,"DUMMY",2),
